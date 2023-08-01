@@ -1,0 +1,132 @@
+.title {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: Roboto, sans-serif;
+}
+
+.value {
+  color: #333;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.card-view {
+  border-radius: 10px;
+  padding: 12px 26px 12px 204px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    #efeefb;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  border-width: 0px;
+}
+
+.label {
+  color: #fa725f;
+  font-family: Roboto;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2px 7px 2px 7px;
+  width: 55px;
+  margin-left: 10px;
+}
+
+.row {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.bmi {
+  color: #777;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.text1 {
+  color: #333;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #ffffff;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  padding: 7px 12px 7px 12px;
+  width: 100px;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+}
+
+.small-label {
+  color: #777;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tile1 {
+  padding: 10px 16px 10px 75px;
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    #fff3eb;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.tile2 {
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    #ffecf3;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.tracker {
+  border-radius: 4px;
+  background: #333;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+  padding: 15px 20px 15px 20px;
+  margin-top: 19px;
+}
+
+.tracker-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text-center1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}

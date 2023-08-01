@@ -1,0 +1,47 @@
+.card {
+  max-width: 152px;
+  border-radius: 8px;
+}
+.title {
+  color: #333;
+
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 140% */
+  letter-spacing: 0.18px;
+}
+.final-price {
+  color: #333;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.18px;
+}
+.text-strike {
+  text-decoration: line-through;
+  color: #333;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 140% */
+  letter-spacing: 0.18px;
+  margin-left: 5px;
+}
+
+.rating {
+  color: #333;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 140% */
+  letter-spacing: 0.18px;
+}

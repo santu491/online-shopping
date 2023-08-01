@@ -1,0 +1,32 @@
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.left-label {
+  color: #000;
+
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 70% */
+  letter-spacing: 0.18px;
+}
+
+.right-label {
+  color: #333;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 4px 20px 5px 19px;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-label-view {
+  border-radius: 20px;
+  border: 1px solid #333;
+}

@@ -1,0 +1,17 @@
+.menu {
+  border-radius: 10px;
+  border: 1px solid #c5eefd;
+  background: #c5eefd;
+  width: 65px;
+  height: 65px;
+  /* position: relative; */
+}
+
+.menu-image{
+  width: 56px; 
+  height: 56px;
+  
+  /* position:absolute;
+  top:2px */
+
+}

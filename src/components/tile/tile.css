@@ -1,0 +1,41 @@
+.tile-card {
+  width: 271px;
+  height: 271px;
+  position: relative;
+
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+  margin-right: 13px;
+}
+.image-view {
+  width: 271px;
+  height: 271px;
+  border-radius: 16px;
+}
+
+.tile-text-view {
+  position: absolute;
+  bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tile-label {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+}
+
+.created-by {
+  color: #fff;
+
+  font-family: Roboto;
+  font-size: 10px;
+
+  font-weight: 500;
+
+  letter-spacing: 0.18px;
+}
