@@ -1,3 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0 30px;
+}
 .title {
   color: #333333;
   font-size: 12px;
@@ -17,7 +23,7 @@
 
 .card-view {
   border-radius: 10px;
-  padding: 12px 26px 12px 204px;
+
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.2) 0%,
@@ -66,13 +72,21 @@
   background-color: #ffffff;
   margin-bottom: 4px;
   border-radius: 10px;
-  padding: 7px 12px 7px 12px;
-  width: 100px;
+  /* padding: 7px 10px 7px 10px; */
+  padding: 4px 0px 4px 11px;
+  /* width: 90px; */
+  display: flex;
+  max-width: 100px;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 
 .row1 {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
+  /* text-align: center; */
 }
 
 .small-label {
@@ -85,7 +99,7 @@
 }
 
 .tile1 {
-  padding: 10px 16px 10px 75px;
+  padding: 10px 0 10px 0;
   border-radius: 10px;
   background: linear-gradient(
       0deg,
@@ -94,9 +108,14 @@
     ),
     #fff3eb;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  width: 48%;
+  /* text-align: center; */
+  display: grid;
+  justify-content: center;
 }
 
 .tile2 {
+  padding: 10px 0 10px 0;
   border-radius: 10px;
   background: linear-gradient(
       0deg,
@@ -105,6 +124,10 @@
     ),
     #ffecf3;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  margin-left: 4%;
+  width: 48%;
+  display: grid;
+  justify-content: center;
 }
 
 .tracker {
@@ -113,6 +136,9 @@
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
   padding: 15px 20px 15px 20px;
   margin-top: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tracker-text {
@@ -129,4 +155,57 @@
   align-items: center;
   justify-content: center;
   margin-left: 50px;
+}
+
+.heading {
+  color: #333;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 12px 0 12px 0;
+  /* position: fixed;
+  width: 100%;
+  bottom: 0; */
+}
+
+.footer-label {
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 150% */
+}
+
+.footer-color {
+  color: #b5b5b5;
+}
+
+.footer-view {
+  text-align: center;
+}
+
+.tile-container {
+  display: flex;
+}
+
+.colored {
+  accent-color: red;
+}
+
+.section2 {
+  display: flex;
+
+  align-items: center;
+  /* background-color: blue; */
 }

@@ -1,14 +1,26 @@
 import React from 'react';
 import './menu.css';
 
-export const Menu = ({ logo, title }) => {
+export const Menu = ({ item }) => {
   return (
     <div class="menu">
-
-      <img src={logo} alt="image1"  class='menu-image' />
-   
-      <p>{title?.toUpperCase()}</p>
-
+      <ul>
+        {item.data.map((product, index) => {
+          return (
+            <li
+              key={index}
+              style={{
+                textAlign: 'center',
+                border: `1px solid ${product.backgroundColor}`,
+                backgroundColor: product.backgroundColor
+              }}
+            >
+              <img src={product.image} alt="image1" class="menu-image" />
+              <p class="title">{product.title?.toUpperCase()}</p>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 };

@@ -1,6 +1,8 @@
 .card {
   max-width: 152px;
-  border-radius: 8px;
+  border-radius: 16px;
+  border-width: 0px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .title {
   color: #333;
